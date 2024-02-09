@@ -1,0 +1,168 @@
+{
+  "fields": [
+    {
+      "label": "Profile",
+      "attributes": [
+        {
+          "label": "First Name",
+          "type": "text"
+        },
+        {
+          "label": "Last Name",
+          "type": "text"
+        },
+        {
+          "label": "Bio",
+          "type": "text"
+        },
+        {
+          "label": "Email Id",
+          "type": "text"
+        },
+        {
+          "label": "Phone Number",
+          "type": "text"
+        },
+        {
+          "label": "Gender",
+          "type": "select",
+          "options": [
+            {
+              "label": "Male",
+              "value": "m"
+            },
+            {
+              "label": "Female",
+              "value": "f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Education": [
+        {
+          "label": "Education",
+          "attributes": [
+            {
+              "label": "Degree",
+              "type": "select",
+              "options": [
+                {
+                  "label": "10th or equivalent",
+                  "value": "10th"
+                },
+                {
+                  "label": "12th or equivalent",
+                  "value": "12th"
+                },
+                {
+                  "label": "B.Tech",
+                  "value": "btech"
+                }
+              ]
+            },
+            {
+              "label": "Institute",
+              "value": "institute",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "label": "Education",
+          "attributes": [
+            {
+              "label": "Degree",
+              "type": "select",
+              "options": [
+                {
+                  "label": "10th or equivalent",
+                  "value": "10th"
+                },
+                {
+                  "label": "12th or equivalent",
+                  "value": "12th"
+                },
+                {
+                  "label": "B.Tech",
+                  "value": "btech"
+                }
+              ]
+            },
+            {
+              "label": "Institute",
+              "value": "institute",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Social Links",
+      "attributes": [
+        {
+          "label": "Github",
+          "value": "github",
+          "type": "text"
+        },
+        {
+          "label": "Linkedin",
+          "value": "linkedin",
+          "type": "text"
+        },
+        {
+          "label": "Stackover-Flow",
+          "value": "stackoverflow",
+          "type": "text"
+        },
+        {
+          "label": "LeetCode",
+          "value": "leetcode",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "label": "Experience",
+      "attributes": [
+        {
+          "label": "Designation",
+          "value": "designation",
+          "type": "text"
+        },
+        {
+          "label": "Company Name",
+          "value": "company",
+          "type": "text"
+        },
+        {
+          "label": "Start Date",
+          "value": "start",
+          "type": "text"
+        },
+        {
+          "label": "End Date",
+          "value": "end",
+          "type": "text"
+        },
+        {
+          "label": "Present",
+          "value": "present",
+          "type": "checkbox"
+        },
+        {
+          "label": "Location",
+          "value": "location",
+          "type": "text"
+        },
+        {
+          "label": "Description",
+          "value": "description",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}
